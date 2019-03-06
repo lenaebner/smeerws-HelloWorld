@@ -4,13 +4,12 @@
 using System;
 using UnityEngine;
 
-
-public class HelloWorld : MonoBehaviour {
-
-
+public class HelloWorld : MonoBehaviour 
+{
 	// Use this for initialization
-	void Start () {
-        string hw = "Hello World (hw)";
+	void Start () 
+    {
+        string helloWorldText2 = "Hello World (helloWorldText2)";
 
         print("(print) Hello World");
         Debug.Log("(Debug.Log) Hello World");
@@ -19,13 +18,13 @@ public class HelloWorld : MonoBehaviour {
                                                               //through Unity Engine: Debug.Log, ...
                                                               //Unity doesn't display the standard C# Console.
 
-        print("(print - hw) " + hw);
-        Debug.Log("(Debug.Log - hw ) " + hw);
-        Console.WriteLine("Console.WriteLine - hw" + hw);
+        print("(print - helloWorldText2) " + helloWorldText2);
+        Debug.Log("(Debug.Log - helloWorldText2 ) " + helloWorldText2);
+        Console.WriteLine("Console.WriteLine - helloWorldText2" + helloWorldText2);
 	}
-	
+    
 	// Update is called once per frame
-	void Update () {
-		
+	void Update () 
+    {
 	}
 }
